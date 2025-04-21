@@ -291,11 +291,12 @@
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr min-content;
-    justify-items: flex-start;
+    justify-items: center;
     padding-top: 180px;
     padding-left: 50px;
     padding-right: 50px;
     font-size: 18px;
+    letter-spacing: 0px;
 }
 
 .footer__address {
@@ -305,14 +306,14 @@
 }
 
 .footer__menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-bottom: 115px;
+    margin-left: -140px;
     letter-spacing: 0;
+    text-transform: lowercase;
 }
 
 .footer__menu-list {
+    display: inline-block;
+    justify-items: center;
     list-style-type: none;
 }
 
