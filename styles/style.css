@@ -5,7 +5,7 @@
     min-height: 293px;
     align-items: center;
     grid-template-columns: 1fr min-content 1fr;
-    padding: 95px 50px 96px 50px;
+    padding: 90px 50px 96px 50px;
 }
 
 .header__menu {
