@@ -42,8 +42,9 @@
 
 .header__logo {
     display: block;
-    min-width: 135px;
-    height: 95px;
+    justify-self: center;
+    align-self: center;
+    min-width: 140px;
 }
 
 .header__logo-image {
@@ -132,7 +133,7 @@
 }
 
 .cover__description-text {
-    word-spacing: 15px;
+    word-spacing: 19px;
     align-content: center;
 }
 
@@ -241,7 +242,7 @@
     padding-right: 24px;
     padding-top: 120px;
     grid-template-columns: 1fr 2fr;
-    gap: 72px;
+    gap: 13px;
 }
 
 .about__logo {
@@ -258,14 +259,12 @@
 }
 
 .about__logo-image {
-    justify-content: center;
-    align-items: center;
     width: 148px;
     height: 114px;
 }
 
 .about__column {
-    padding-top: 133px;
+    padding-top: 135px;
 }
 
 .about__title {
@@ -282,6 +281,11 @@
     font-size: 20px;
     font-weight: normal;
     line-height: 24px;
+    letter-spacing: 0;
+}
+
+.about__text-first-paragraph {
+    padding-right: 5px;
 }
 
 .footer {
