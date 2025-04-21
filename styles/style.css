@@ -5,7 +5,7 @@
     min-height: 293px;
     align-items: center;
     grid-template-columns: 1fr min-content 1fr;
-    padding: 92px 50px 92px 50px;
+    padding: 92px 50px 90px 50px;
 }
 
 .header__menu {
@@ -88,7 +88,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0 0 0/60%);
+    background-color: rgba(0 0 0 / .6);
+    z-index: 1;
 }
 
 .cover__title {
@@ -292,7 +293,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr min-content;
     justify-items: center;
-    padding: 180px 50px;
+    padding: 180px 50px 90px 50px;
     min-height: 180px;
     font-size: 18px;
     letter-spacing: 0px;
