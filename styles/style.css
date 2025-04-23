@@ -86,21 +86,21 @@
     color: white;
     min-height: 757px;
     text-transform: uppercase;
-    z-index: 0;
     margin-top: -5px;
+    z-index: -1;
 }
 
 .overlay {
     position: absolute;
-    top: 0;
-    width: 100%;
+    inset: 0 0;
     background-color: rgba(0 0 0 / .6);
-    z-index: -1;
+    z-index: 0;
 }
 
 .cover__title {
     display: flex;
     flex-direction: column;
+    position: relative;
     padding-top: 165px;
     padding-left: 50px;
     padding-right: 50px;
@@ -111,6 +111,7 @@
     line-height: 115%;
     letter-spacing: 30px;
     text-align: center;
+    z-index: 1;
 }
 
 .aligned-text {
@@ -134,6 +135,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: relative;
     margin-top: 106px;
     padding-left: 50px;
     padding-right: 50px;
@@ -141,6 +143,7 @@
     color: white;
     font-size: 22px;
     line-height: 28px;
+    z-index: 1;
 }
 
 .cover__description-text {
@@ -204,6 +207,7 @@
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 48px;
+    position: relative;
     font-size: 22px;
     font-weight: bold;
     line-height: 120%;
@@ -212,6 +216,7 @@
     color: white;
     border-bottom: 0 solid white;
     text-underline-offset: 3px;
+    z-index: 1;
 }
 
 .card__text {
@@ -219,6 +224,8 @@
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 48px;
+    position: relative;
+    z-index: 1;
     font-size: 20px;
     line-height: 120%;
     font-weight: normal;
@@ -305,7 +312,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr min-content;
     justify-items: center;
-    padding: 180px 50px 0 50px;
+    padding: 180px 50px 90px 50px;
     margin-top: 2px;
     min-height: 180px;
     font-size: 18px;
