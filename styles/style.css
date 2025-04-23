@@ -72,7 +72,7 @@
 .address__link {
     display: block;
     width: fit-content;
-    min-height: 24px;
+    /*min-height: 24px;*/
     color: black;
     text-underline-offset: 4px;
     margin-left: -1px;
