@@ -53,6 +53,8 @@
 }
 
 .address {
+    display: flex;
+    flex-direction: column;
     font-style: normal;
     max-width: 240px;
     line-height: 24px;
@@ -60,8 +62,6 @@
 }
 
 .header__address {
-    display: flex;
-    flex-direction: column;
     justify-self: end;
     margin-right: 36px;
 }
@@ -314,8 +314,6 @@
 }
 
 .footer__address {
-    display: flex;
-    flex-direction: column;
     justify-self: flex-start;
 }
 
