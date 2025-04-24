@@ -298,11 +298,9 @@
 
 .footer {
     display: grid;
-    grid-template-columns: 1fr 1fr min-content;
-    justify-items: center;
+    grid-template-columns: max-content max-content min-content;
+    justify-content: space-between;
     padding: 180px 50px 82px 50px;
-    /*margin-top: 2px;*/
-    /*min-height: 180px;*/
     font-size: 18px;
     letter-spacing: 0px;
 }
@@ -312,7 +310,7 @@
 }
 
 .footer__menu {
-    margin-left: -140px;
+    justify-content: center;
     letter-spacing: 0;
     text-transform: lowercase;
 }
