@@ -43,12 +43,11 @@
 
 .header__logo {
     display: block;
-    justify-self: center;
-    align-self: center;
-    min-width: 140px;
+    width: 148px;
 }
 
 .header__logo-image {
+    display: block;
     width: 100%;
 }
 
@@ -93,8 +92,7 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    /*padding-top: 165px;*/
-    padding-top: 162px;
+    padding-top: 165px;
     padding-left: 50px;
     padding-right: 50px;
     gap: 20px;
