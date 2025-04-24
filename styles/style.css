@@ -300,7 +300,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr min-content;
     justify-items: center;
-    padding: 180px 50px 0 50px;
+    padding: 180px 50px 82px 50px;
     /*margin-top: 2px;*/
     min-height: 180px;
     font-size: 18px;
