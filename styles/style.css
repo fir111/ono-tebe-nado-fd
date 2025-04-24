@@ -274,6 +274,7 @@
 }
 
 .about__logo-image {
+    display: block;
     width: 148px;
     height: 114px;
 }
@@ -282,17 +283,26 @@
     padding-top: 136px;
 }
 
+.about__article {
+    display: flex;
+    flex-direction: column;
+}
+
 .about__title {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 40px;
-    padding-bottom: 100px;
 }
 
-.about__text {
+.about__content {
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
     gap: 24px;
+}
+
+
+.about__text {
     font-size: 20px;
     font-weight: normal;
     line-height: 24px;
