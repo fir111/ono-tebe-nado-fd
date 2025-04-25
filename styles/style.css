@@ -187,20 +187,18 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 334px;
-    min-height: 596px;
 }
 
 .card {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
     padding-left: 40px;
     padding-right: 40px;
-    height: 100%;
+    width: 334px;
+    min-height: 596px;
     position: relative;
     background-size: cover;
-    /*z-index: 1;*/
     color: white;
 }
 
@@ -211,12 +209,15 @@
     line-height: 120%;
     letter-spacing: 0;
     text-transform: uppercase;
+    text-decoration: underline;
+    border-bottom: 0 solid white;
+    text-underline-offset: 3px;
     z-index: 1;
 }
 
 .card-link {
-    border-bottom: 0 solid white;
-    text-underline-offset: 3px;
+    display: flex;
+    text-decoration: none;
 }
 
 .card__text {
